@@ -1,0 +1,19 @@
+{
+    "name": "yadi/composer-library",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Yadi\\ComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "my office project",
+            "email": "vueapp2022@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    }
+}
